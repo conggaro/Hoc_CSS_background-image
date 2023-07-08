@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.doi_tuong_1{
+    width: 840px;
+
+    /* thiết lập vị trí */
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.doi_tuong_2{
+    width: 228px;
+    height: 40px;
+    border: solid 2px red;
+
+    /* thiết lập vị trí */
+    position: absolute;
+    top: 120px;
+    left: 600px;
+
+    background-image: url(https://raw.githubusercontent.com/conggaro/Luu_HinhAnh_Online/main/iconnew.webp);
+    background-repeat: no-repeat;
+
+    /* giá trị gốc là 620 x 514 */
+    /* sau khi chia tỷ lệ */
+    /* kiểu lấy giá trị hằng số là 310 */
+    /* thì chiều cao height tìm được là 310x514/620 = 257 đó */
+    background-size: 310px 257px;
+
+    /* ảnh nó có vị trí */
+    /* là do background-position */
+    background-position-x: 0px;
+    background-position-y: -176px;
+}
+
+span{
+    color: red;
+}
